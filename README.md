@@ -1,14 +1,17 @@
 安装支持
-'''
+
+
 pip install web3 eth_account
 
+
 pip install --upgrade web3
-'''
+
+
 参数配置：只能修改私匙和互跨次数，跨链金额不能更改。
 
 不懂代码请不要修改每次跨链的1.只修改私匙和次数。
 
-默认循环一轮为10分钟，可以自定义为其他时间
+默认循环一轮为1分钟，可以自定义为其他时间
 
 支持批量多号刷SWAP，把私匙添加到address.txt,一行一个
 
@@ -22,3 +25,6 @@ time.sleep(1 * 60) # 等待 1 分钟，循环时间可修改
 
 1 uni_arb_35.py ARB <-> UNI 互SWAP刷奖励
 python3 uni_arb_35.py
+
+
+转载至https://github.com/8280998/t3rn 侵权请联系我删除
