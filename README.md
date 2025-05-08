@@ -1,7 +1,9 @@
 安装支持
+'''
 pip install web3 eth_account
 
 pip install --upgrade web3
+'''
 参数配置：只能修改私匙和互跨次数，跨链金额不能更改。
 
 不懂代码请不要修改每次跨链的1.只修改私匙和次数。
